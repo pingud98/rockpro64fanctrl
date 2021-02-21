@@ -1,0 +1,13 @@
+[Unit]
+Description=RockPro64 Fan Control
+After=network-online.target
+
+[Service]
+User=root
+Type=idle
+ExecStart=/home/jimmy/fancontrol.sh
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
