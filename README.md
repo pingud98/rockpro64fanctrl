@@ -11,6 +11,8 @@ But hopefully it won't be required for my home setup.
 ## NB the fan speed is always set to 20. If you have CPU/disk intensive tasks, you should probably increase it!
 
 ### How to use this:
+I'm running Armbian 21.02.2 Focal with Linux 5.10.16-rockchip64 on my box, it's probably fine for all recent Ubuntus, with other distros your mileage may vary.
+
 1) git clone https://github.com/pingud98/rockpro64fanctrl.git
 2) modify the files as follows:
     move the fancontrol.sh script to where you would like it to live (I keep mine in /home/jimmy.. probably not the best location, but it works)
