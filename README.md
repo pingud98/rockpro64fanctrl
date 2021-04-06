@@ -18,7 +18,7 @@ I'm running Armbian 21.02.2 Focal with Linux 5.10.16-rockchip64 on my box, it's 
     move the fancontrol.sh script to where you would like it to live (I keep mine in /home/jimmy.. probably not the best location, but it works)
     chmod +x fancontrol.sh
     edit the fanctrl.service file to modify the path statement to wherever you put the fancontrol.sh script (i.e. /home/$USER)
-    move the fanctrl.service file to the /etc/systemd/system/ directory
+    (sudo) move the fanctrl.service file to the /etc/systemd/system/ directory
 3) sudo systemctl daemon-reload
 4) sudo systemctl enable fanctrl.service
 5) sudo systemctl start fanctrl.service
